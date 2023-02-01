@@ -1,0 +1,14 @@
+---
+title: "Counties"
+author: "Your Name"
+format: html
+---
+
+```{r}
+#| echo: false
+#| output: false
+
+library(tidyverse)
+
+x <- read_rds("data/ec.rds")
+```
